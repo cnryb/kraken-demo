@@ -4,13 +4,13 @@
     "devWatch": "vite build --mode=development --watch",
     "build": "vite build",
     "open": "npm run build && kraken ./dist/main.js",
-    "serve": "vite preview"
+    "serve": "vite preview --host"
   },
   "dependencies": {
     "vue": "^3.2.16"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.9.3",
-    "vite": "^2.6.4"
+    "vite": "^2.6.13"
   }
 }
